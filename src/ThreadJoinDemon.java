@@ -20,7 +20,7 @@ class Compute implements Runnable{
 	Compute(Long no){
 		this.no = no;		
 	}
-	
+	   
 	@Override
 	public void run() {
 		while(no > 0) {
